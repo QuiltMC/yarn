@@ -414,6 +414,9 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_34745 toggleDebugProfiler (Ljava/lang/Runnable;Ljava/util/function/Consumer;)V
 		ARG 1 startAction
 		ARG 2 completeAction
+	METHOD method_35698 saveCubemap (Ljava/io/File;II)Lnet/minecraft/class_2561;
+		ARG 2 width
+		ARG 3 height
 	METHOD method_35702 getCurrentFps ()I
 	METHOD method_35703 getWorldGenerationProgressTracker ()Lnet/minecraft/class_3953;
 	METHOD method_35706 isRealmsEnabled ()Z
